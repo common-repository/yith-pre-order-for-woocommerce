@@ -1,0 +1,163 @@
+.ywpo-description {
+  display: block;
+  clear: left;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.4em;
+  padding-top: 10px;
+  margin-left: 90px;
+}
+
+.woocommerce_variable_attributes .show_if_variation_pre_order {
+  display: inline-block;
+  width: 100%;
+}
+
+.ywpo_options_panel_title {
+  padding-left: 1em;
+  font-size: 1.1em;
+}
+
+.ywpo_dynamic_availability_date_days_text {
+  margin-left: 10px;
+}
+
+#preorder_product_data legend,
+.woocommerce_variable_attributes .show_if_variation_pre_order legend {
+  width: 180px;
+  margin: 0 60px 0 -150px;
+}
+
+#preorder_product_data p.form-field,
+.woocommerce_variable_attributes .show_if_variation_pre_order p.form-field {
+  padding-left: 250px !important;
+}
+
+#preorder_product_data .options_group ul label,
+.woocommerce_variable_attributes .show_if_variation_pre_order .options_group ul label {
+  font-size: 14px;
+}
+#preorder_product_data .options_group .yith-plugin-ui span.description,
+.woocommerce_variable_attributes .show_if_variation_pre_order .options_group .yith-plugin-ui span.description {
+  font-size: 12px;
+}
+
+#preorder_product_data .options_group .yith-plugin-fw-onoff-field-wrapper,
+.woocommerce_variable_attributes .show_if_variation_pre_order .options_group .yith-plugin-fw-onoff-field-wrapper {
+  margin-bottom: 9px;
+}
+
+#woocommerce-product-data #preorder_product_data .wc-radios li:last-child,
+.woocommerce_variable_attributes .show_if_variation_pre_order .wc-radios li:last-child {
+  padding: 0;
+  margin-bottom: -5px;
+}
+
+.form-field.ywpo_start_date_label > legend, .form-field.ywpo_start_date_label .yith-plugin-fw-textarea-editor-field-wrapper {
+  display: inline-block;
+}
+
+.woocommerce_variable_attributes .show_if_variation_pre_order .form-field.ywpo_start_date_label .yith-plugin-fw-textarea-editor-field-wrapper {
+  margin-left: 90px;
+}
+
+.yith-plugin-ui .yith-plugin-fw-datepicker-field-wrapper + .yith-icon-calendar {
+  color: #ccc;
+  position: absolute;
+  font-size: 18px;
+}
+
+.yith-plugin-ui .yith-plugin-fw-datepicker-field-wrapper .ywpo_datetimepicker {
+  width: 200px;
+}
+
+#ui-datepicker-div.yith-plugin-fw-datetimepicker-div .ui-datepicker-close,
+#ui-datepicker-div.yith-plugin-fw-datetimepicker-div.ui-widget-content .ui-datepicker-close {
+  background: #4e8ba2;
+  color: #fff;
+}
+
+#ui-datepicker-div.yith-plugin-fw-datetimepicker-div .ui-datepicker-close.ui-state-hover,
+#ui-datepicker-div.yith-plugin-fw-datetimepicker-div.ui-widget-content .ui-datepicker-close.ui-state-hover {
+  background: #659cb1;
+}
+
+#ui-datepicker-div.ui-widget-content.yith-plugin-fw-datetimepicker-div .ui-datepicker-today .ui-state-highlight {
+  border: 1px solid #fcefa1;
+}
+
+#ui-datepicker-div.ui-widget-content.yith-plugin-fw-datetimepicker-div .ui-datepicker-current-day .ui-state-active,
+#ui-datepicker-div.yith-plugin-fw-datetimepicker-div .ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input {
+  border: 1px solid #aaa;
+}
+
+#ui-datepicker-div.yith-plugin-fw-datetimepicker-div .ui-timepicker-div dl {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 0.8em;
+}
+
+.ui-datepicker.yith-plugin-fw-datetimepicker-div .ui-datepicker-buttonpane button {
+  float: right;
+  margin: 1em 0.1em 1em;
+}
+
+.yith-ywpo-date-time-picker-div .ui-timepicker-div {
+    border-top: 1px solid #eee;
+}
+
+.yith-ywpo-date-time-picker-div .ui-timepicker-div dl {
+    display: flex;
+    align-items: center;
+}
+
+.ui-timepicker-div dl dd {
+    margin-left: 10px;
+}
+
+.yith-ywpo-date-time-picker-div .ui-timepicker-div dt, .yith-ywpo-date-time-picker-div .ui-timepicker-div dd {
+    display: none;
+    margin: 0;
+}
+.yith-ywpo-date-time-picker-div .ui-timepicker-div dt.ui_tpicker_time_label {
+    display: block;
+    margin-right: 8px;
+}
+.yith-ywpo-date-time-picker-div .ui-timepicker-div dd.ui_tpicker_hour,
+.yith-ywpo-date-time-picker-div .ui-timepicker-div dd.ui_tpicker_minute {
+    display: flex;
+    align-items: center;
+}
+.yith-ywpo-date-time-picker-div .ui-timepicker-div dd.ui_tpicker_minute:before {
+    content: ":";
+    margin: 0 4px;
+}
+.yith-ywpo-date-time-picker-div .ui-timepicker-select {
+    border: var(--yith-field-border) !important;
+    border-radius: var(--yith-field-border-radius) !important;
+    box-shadow: var(--yith-field-shadow) !important;
+    color: var(--yith-content-text) !important;
+    padding: 2px 28px 2px 8px !important;
+    font-family: inherit;
+    background: #fff url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iMS41IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgYXJpYS1oaWRkZW49InRydWUiPgogIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTguMjUgMTVMMTIgMTguNzUgMTUuNzUgMTVtLTcuNS02TDEyIDUuMjUgMTUuNzUgOSI+PC9wYXRoPgo8L3N2Zz4=") no-repeat right 3px top 7px !important;
+    background-size: 18px !important;
+}
+.yith-ywpo-date-time-picker-div .ui-datepicker-buttonpane {
+    border: none;
+}
+.yith-ywpo-date-time-picker-div .ui-datepicker-buttonpane button {
+    line-height: 30px !important;
+    border-radius: 4px !important;
+    padding: 0 17px !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+}
+.yith-ywpo-date-time-picker-div .ui-datepicker-buttonpane button.ui-priority-secondary {
+    background: var(--yith-outline-bg) !important;
+    border: 1px solid var(--yith-outline-border) !important;
+    color: var(--yith-outline-text) !important;
+}
+.yith-ywpo-date-time-picker-div .ui-datepicker-buttonpane button.ui-priority-primary {
+    background: var(--yith-primary) !important;
+    color: var(--yith-primary-text) !important;
+    border: 1px solid var(--yith-primary) !important;
+}
